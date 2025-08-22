@@ -1,0 +1,42 @@
+# KeePass Git Sync Application Files
+# Add these lines to your .gitignore to exclude the sync application from version control
+
+# Sync application executables
+KeePassSyncTray
+KeePassSyncTray.exe
+KeePassSyncTray-Debug.exe
+
+# Python cache files (if running from source)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Configuration (optional - you may want to track config.json)
+# config.json
+
+# Development files
+.env
+.venv/
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log

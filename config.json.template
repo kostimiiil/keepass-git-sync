@@ -1,0 +1,18 @@
+{
+    "database": {
+        "filename": "Passwords.kdbx",
+        "monitor_interval": 2
+    },
+    "git": {
+        "auto_pull": true,
+        "auto_push": true,
+        "commit_message_format": "Update from {hostname} at {timestamp}"
+    },
+    "notifications": {
+        "enabled": true,
+        "timeout": 3
+    },
+    "sync": {
+        "timeout": 30
+    }
+}
